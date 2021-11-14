@@ -9,13 +9,24 @@
   </head>
   <body>
     <header>
-      
+
       <h1>Calculate the numbers</h1>
       <p class="between">(Between 1 and 100)</p>
       <button class="btn again">Again!</button>
       <div class="number">?</div>
     </header> 
     <main>
+      <section class="left">
+      <button class="show-modal">HINT</button>
+    </section>
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <p class="modal_text">
+       0
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
+
       <section class="left">
         <input type="number" class="bignum" />
         <button class="btn big_na">Biggest Number</button>
